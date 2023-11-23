@@ -1,0 +1,46 @@
+:root {
+  --navbar: #006494;
+  --text: #d5deef;
+  --bg: #a8e8f9;
+  --footer: #013c58;
+}
+
+body {
+  font-family: "Ubuntu", sans-serif;
+}
+
+.row .card {
+  background-color: var(--navbar);
+  height: 90vh;
+}
+
+.card h2 {
+  margin-top: -1rem;
+  font-size: 1.7rem;
+  font-weight: 300;
+}
+
+.form-check-label {
+  color: var(--bg);
+  font-weight: 100;
+}
+
+.form-check-label u {
+  color: var(--text);
+}
+
+.form-check-label u:hover {
+  color: var(--bg);
+}
+
+.card .btn {
+  color: var(--text);
+  background-color: var(--footer);
+  padding: 0.3rem 1rem;
+  margin-top: -1.5rem;
+}
+
+.card .exist {
+  margin-top: 1rem !important;
+  margin-bottom: 1rem;
+}
